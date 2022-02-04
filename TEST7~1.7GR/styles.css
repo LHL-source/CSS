@@ -1,0 +1,36 @@
+.container > div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    /*color: #ffeead;*/
+}
+
+
+html, body{
+        box-sizing:  :border-box;
+        background-color: #ffeead;
+        height: 100%;
+        padding: 10px; 
+        margin: 0px;
+        }
+
+    .container > div:nth-child(1n){
+        background-color: yellow;
+        }
+
+        .container > div:nth-child(2n){
+         background-color: grey;
+         }
+
+        .container > div:nth-child(3n){
+         background-color: #d8b088;
+         }
+
+         .container > div:nth-child(4n){
+            background-color: #b088d8;
+            }
+
+            .stylescss_testcase {
+                color= green;
+            }
